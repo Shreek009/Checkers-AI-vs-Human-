@@ -45,6 +45,27 @@ Here's a modified description of the algorithm with alpha-beta pruning, assuming
         - If alpha is greater than or equal to beta, break out of the loop.
 
     - If it's O's turn:
+ 
+1. Clone the repository using the following command: 
+   ```
+   git clone https://github.com/aman247av/AI-Projects.git
+   ```
+   
+2. Navigate to the project folder using the following command: 
+   ```
+   cd AI-Projects/<project-name>
+   ```
+
+3. Install the required packages using the following command: 
+   ```
+   pip install -r requirements.txt
+   ```
+   
+4. Run the project using the following command: 
+   ```
+   python runner.py
+   ```
+   
 
         - Update beta to the minimum of the current beta and the returned value from the recursive call.
 
