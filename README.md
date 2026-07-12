@@ -45,6 +45,14 @@ Here's a modified description of the algorithm with alpha-beta pruning, assuming
         - If alpha is greater than or equal to beta, break out of the loop.
 
     - If it's O's turn:
+    - 
+        - Update beta to the minimum of the current beta and the returned value from the recursive call.
+
+        - If alpha is greater than or equal to beta, break out of the loop.
+
+- If it's X's turn, return the maximum score from the scores list
+
+  INSTALLATION
  
 1. Clone the repository using the following command: 
    ```
@@ -67,8 +75,3 @@ Here's a modified description of the algorithm with alpha-beta pruning, assuming
    ```
    
 
-        - Update beta to the minimum of the current beta and the returned value from the recursive call.
-
-        - If alpha is greater than or equal to beta, break out of the loop.
-
-- If it's X's turn, return the maximum score from the scores list
