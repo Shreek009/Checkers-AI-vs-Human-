@@ -18,7 +18,7 @@ If the top of this image represents the state of the game when it is my turn, th
 
 We should assume that O is also playing to win this game, but relative to us, the first player, O wants obviously wants to choose the move that results in the worst score for us, it wants to pick a move that would minimize our ultimate score. Let's look at things from O's perspective, starting with the two other game states from above in which we don't immediately win.
 
-<p align="center"><img src="../Images/Minimax_2.png" width="450" height="290" /></p>
+<p align="center"><img src="/Checkers (AI vs Human)/Images/Minimax_2.png" width="450" height="290" /></p>
 
 The choice is clear, O would pick any of the moves that result in a score of -10.
 
